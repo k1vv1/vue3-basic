@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useUserStore } from '@/store/modules/comVal'
+import { useUserStore } from '@/store/modules/user'
 const userStore = useUserStore()
 
 defineProps<{ msg: string }>()
@@ -9,7 +9,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }} {{ userStore.name }}</h1>
+  <h1>{{ msg }} {{ userStore.firstName }}</h1>
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
@@ -40,3 +40,4 @@ const count = ref(0)
   color: #888;
 }
 </style>
+@/store/modules/user

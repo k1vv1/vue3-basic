@@ -20,6 +20,7 @@
     "mitt": "^3.0.0",
     "normalize.css": "^8.0.1",
     "pinia": "^2.0.19",
+    "pinia-plugin-persistedstate": "^3.2.0",
     "qs": "^6.11.0",
     "vant": "^3.6.2",
     "vue": "^3.2.37",
